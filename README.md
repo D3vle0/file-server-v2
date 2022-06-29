@@ -29,7 +29,7 @@ $ yarn
     ```sh
     $ mkdir ./public/admin; mkdir ./public/user
     ```
-2. 관리자가 제공할 파일들을 `/public/admin` 아래에 여러 디렉토리로 분류합니다. (ex: `/public/admin/videos`, `/pubic/admin/codes` 등)
+2. 관리자가 제공할 파일들을 `/public/admin` 아래에 여러 디렉토리로 분류합니다. (ex: `/public/admin/videos`, `/public/admin/codes` 등)
     ```sh
     $ mkdir ./public/admin/videos/; mkdir ./public/admin/codes; ...
     ```
