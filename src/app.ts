@@ -6,9 +6,10 @@ import { randomBytes } from 'crypto';
 import indexRouter from './routes/index';
 import fileRouter from './routes/files';
 import logoutRouter from './routes/logout';
+import 'dotenv/config';
 
 const app = express();
-const PORT = 1234;
+const PORT = process.env.PORT || 5000;
 
 app.set('view engine', 'ejs');
 app.use(express.static(path.resolve(__dirname, '../public')));
